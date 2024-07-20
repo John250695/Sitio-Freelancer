@@ -4,7 +4,7 @@
     --primario: #ffc107;
     --secundario: #0097a7;
     --gris: #757575;
-    --grisClaro #DFE9F3;
+    --grisClaro: #DFE9F3;
 }
 
 /* Globales */
@@ -105,7 +105,7 @@ h1,h2,h3 {
 
 @media (min-width: 768px ) {
     .w-sm-100 {
-       width: auto; 
+    width: auto; 
     }
 }
 
@@ -253,6 +253,7 @@ h1,h2,h3 {
         grid-template-rows: auto auto 20rem;
         column-gap: 1rem;
     }
+}
 
 .campo:nth-child(3),
 .campo:nth-child(4) {
